@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF6FF"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@android:color/white">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/judulDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Judul Cerita"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue_700"
+                    android:gravity="start" />
+
+                <TextView
+                    android:id="@+id/deskripsiDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Isi cerita panjang muncul di sini."
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="12dp"
+                    android:lineSpacingExtra="6dp" />
+
+                <Button
+                    android:id="@+id/btnKembali"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="24dp"
+                    android:text="Kembali"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="@color/blue_700" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+</RelativeLayout>

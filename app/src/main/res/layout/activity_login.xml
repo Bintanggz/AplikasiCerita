@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:background="@color/birumuda"
+    android:padding="24dp">
+
+    <!-- Judul Login -->
+    <TextView
+        android:id="@+id/tekslogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="LOGIN USER"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- Username -->
+    <EditText
+        android:id="@+id/editekuser"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/tekslogin"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Username"
+        android:background="@drawable/edittext_background"
+        android:drawableStart="@drawable/ic_user"
+        android:drawablePadding="10dp"
+        android:paddingHorizontal="16dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:inputType="text" />
+
+    <!-- Password -->
+    <EditText
+        android:id="@+id/editekpassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/editekuser"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Password"
+        android:background="@drawable/edittext_background"
+        android:drawableStart="@drawable/ic_password"
+        android:drawablePadding="10dp"
+        android:paddingHorizontal="16dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:inputType="textPassword" />
+
+    <!-- Tombol Login -->
+    <Button
+        android:id="@+id/tombollogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/editekpassword"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/biruTua"
+        android:elevation="4dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- Teks "Belum punya akun?" -->
+    <TextView
+        android:id="@+id/registerLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Belum punya akun? Daftar"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_below="@id/tombollogin"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="birumuda">#2469A9</color>
+    <color name="biru">#00BFFF</color>
+    <color name="biruTua">#1E88E5</color>
+    <color name="darker_gray">#757575</color>
+    <color name="purple_500">#9C27B0</color>
+    <color name="blue_900">#0D47A1</color>
+    <color name="blue_700">#1976D2</color>
+    <color name="blue_100">#BBDEFB</color>
+
+
+
+</resources>
