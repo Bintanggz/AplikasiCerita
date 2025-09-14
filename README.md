@@ -1,16 +1,9 @@
-Mantap 🚀 repo kamu `AplikasiCerita` sudah berhasil di-push ke GitHub. Karena belum ada **README.md**, saya bikinkan versi yang sesuai dengan project kamu (Android app dengan Java).
-
-Kamu bisa langsung copy ini ke file **README.md** di repo GitHub-mu:
-
-````markdown
-# 📖 Aplikasi Cerita
-
 Aplikasi Android untuk membaca dan mengelola cerita dengan tampilan menarik.  
 Dibangun menggunakan **Java** di Android Studio.
 
 ---
 
-## ✨ Fitur
+✨ Fitur
 - 📚 Daftar cerita menggunakan RecyclerView  
 - 📖 Halaman detail cerita  
 - 🔐 Login & Register (Firebase Authentication)  
@@ -21,7 +14,7 @@ Dibangun menggunakan **Java** di Android Studio.
 
 ---
 
-## 🛠️ Teknologi
+🛠️ Teknologi
 - Java (Android)
 - Gradle
 - Firebase Authentication
@@ -31,7 +24,7 @@ Dibangun menggunakan **Java** di Android Studio.
 
 ---
 
-## 🚀 Cara Menjalankan
+🚀 Cara Menjalankan
 1. Clone repository ini:
    ```bash
    git clone https://github.com/Bintanggz/AplikasiCerita.git
@@ -44,7 +37,7 @@ Dibangun menggunakan **Java** di Android Studio.
 
 ---
 
-## 📂 Struktur Proyek
+📂 Struktur Proyek
 
 ```
 app/
@@ -61,20 +54,12 @@ app/
 
 ---
 
-
-## 📜 Lisensi
+📜 Lisensi
 
 Proyek ini dilisensikan di bawah [MIT License](LICENSE).
 
 ---
 
-## 👨‍💻 Author
+👨‍💻 Author
 
 * [Bintanggz](https://github.com/Bintanggz)
-
-```
-
----
-
-Mau saya bikinkan juga **contoh badge (status build, bahasa, lisensi)** biar README kamu terlihat lebih profesional seperti project open-source besar?
-```
